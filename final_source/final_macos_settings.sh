@@ -294,6 +294,13 @@ cd $HOME #move user home
 git clone https://github.com/netdata/netdata.git --depth=100 #netdata download from git
 cd netdata
 sudo ./netdata-installer.sh --install /usr/local #enter safari 127.0.x.x rootback check
+ls
+echo Set oh-my-zsh command-line
+brew install zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+alias osu='mv ~/Downloads/*.osz /Applications/osu!.app/drive_c/Program\ Files/osu!/songs' >> ~/.zshrc
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH >> ~/.zshrc
+source ~/.zshrc
 echo /////////////////////////////////
 echo //  done! plz restart system  //
 echo ////////////////////////////////
