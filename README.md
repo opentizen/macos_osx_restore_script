@@ -5,7 +5,7 @@ If you use this script, you can possible add code or modify(debugging)
 1. You must be use administrator permission<br>
 2. You must be use as one like your code<br>
 3. Modify code "mas login" -> change your AppStore Account<br>
-4. Modify code "git config user.name -> your name
+4. Modify code "git config user.name -> your name<br>
 5. Modify code "git config user.email -> your email
 <hr><h3># When should use it? #</h3>
 1. As one like your custom settings for MacOS<br>
